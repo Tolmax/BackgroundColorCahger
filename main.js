@@ -1,0 +1,1 @@
+(()=>{"use strict";var t=document.getElementById("btn"),e=document.querySelector(".color"),o=document.querySelector(".body"),r=["0","1","2","3","4","5","6","7","8","9","A","B","C","D","F"];t.addEventListener("click",(function(){var t=function(){for(var t="#",e=0;e<6;e++){var o=Math.floor(Math.random()*r.length);t+=r[o]}return t}();e.textContent=t,o.style.backgroundColor=t}))})();
