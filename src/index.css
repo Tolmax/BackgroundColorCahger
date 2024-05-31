@@ -14,6 +14,31 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.logo {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    background-color: darkslategrey;
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
 .container {
     text-align: center;
 }
